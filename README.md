@@ -1,4 +1,4 @@
-# Bharanidharan_Enterprise-Learning-Platform
+# Anekka_Enterprise-Learning-Platform
 # 🎓 Enterprise Learning Platform
 
 > **Learn • Connect • Grow**
