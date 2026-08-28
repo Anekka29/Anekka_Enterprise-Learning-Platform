@@ -122,7 +122,7 @@ The application follows a **React + Spring Boot** architecture with:
 ```text
 Enterprise-Learning-Platform
 │
-├── skillsphere-frontend
+├── Enterprise-Learning-Platform-frontend
 │   ├── src
 │   ├── public
 │   ├── components
@@ -132,7 +132,7 @@ Enterprise-Learning-Platform
 │   ├── assets
 │   └── App.jsx
 │
-├── skillsphere-backend
+├── Enterprise-Learning-Platform-backend
 │   ├── controller
 │   ├── service
 │   ├── repository
@@ -315,7 +315,7 @@ git clone https://github.com/Anekka29/TeamA_SkillSphere-learning-nexus-fsd.git
 Then move into the project directory:
 
 ```bash
-cd TeamA_SkillSphere-learning-nexus-fsd
+cd TeamA_Enterprise-Learning-Platform
 ```
 
 ## 2️⃣ Backend Setup
@@ -327,7 +327,7 @@ The backend is developed using Java 17 and Spring Boot.
 From the project root:
 
 ```bash
-cd skillsphere-backend
+cd Enterprise-Learning-Platform-backend
 ```
 
 ### Step 2 — Configure MySQL
@@ -335,7 +335,7 @@ cd skillsphere-backend
 Open:
 
 ```text
-skillsphere-backend/application.properties
+Enterprise-Learning-Platform-backend/application.properties
 ```
 
 Configure the MySQL database connection according to your local MySQL setup.
@@ -384,13 +384,13 @@ Keep the backend terminal running.
 Open another terminal and go to the project root:
 
 ```bash
-cd TeamA_SkillSphere-learning-nexus-fsd
+cd TeamA_Enterprise-Learning-Platform
 ```
 
 Then enter the frontend folder:
 
 ```bash
-cd skillsphere-frontend
+cd Enterprise-Learning-Platform-frontend
 ```
 
 ### Step 2 — Install Dependencies
@@ -426,7 +426,7 @@ The frontend and backend should run simultaneously.
 ### Terminal 1 — Backend
 
 ```bash
-cd skillsphere-backend
+cd Enterprise-Learning-Platform-backend
 mvn spring-boot:run
 ```
 
@@ -439,7 +439,7 @@ http://localhost:8080
 ### Terminal 2 — Frontend
 
 ```bash
-cd skillsphere-frontend
+cd Enterprise-Learning-Platform-frontend
 npm install
 npm run dev
 ```
@@ -450,7 +450,7 @@ Frontend URL:
 http://localhost:5173
 ```
 
-# 🔄 Frontend–Backend Communication
+# 🔄 Enterprise-Learning-Platform–Backend Communication
 
 The application follows this communication flow:
 
